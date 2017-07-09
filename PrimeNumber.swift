@@ -1,6 +1,10 @@
 import Foundation
 //Create function to check if number is prime
 func isPrime(number: Int) -> Bool{
+  //If number is less than two, then it isn't prime
+   if number < 2{
+      return false
+   }
   //Create variable of half of the number
   let halfnum=number/2
   //Create variables
